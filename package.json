@@ -1,16 +1,23 @@
 {
-  "name": "cst336-lab7",
-  "version": "0.0.0",
-  "private": true,
+  "name": "cst336_lab7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://thekokoloko@github.com/thekokoloko/cst336_lab7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thekokoloko/cst336_lab7/issues"
+  },
+  "homepage": "https://github.com/thekokoloko/cst336_lab7#readme",
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "hbs": "~4.0.4",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
   }
 }
