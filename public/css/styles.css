@@ -2,3 +2,9 @@ body{
     background-color: #CBE2F6;
     text-align: center;
 }
+.container{
+    display: inline;
+}
+.ima{
+    display: inline;
+}

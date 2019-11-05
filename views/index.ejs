@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1> Pixabay Search (Express Version)</h1>
+
+    <form action="/results">
+        Keyword: <input type="text" name="keyword" >
+        <button> Search! </button><br>
+        <select id="orienta" name="orienta">
+            <option value="horizontal">Horizontal</option>
+            <option value="vertical">Vertical</option>
+        </select>
+    </form><br>
+
+
+    <div class="parent-container d-flex" >
+
+        <div class="container">
+            <div class="top-left"><%= image.hits[0].likes%>: Likes</div>
+            <img src="<%= image.hits[0].largeImageURL%>" width="250" >
+        </div>
+
+        <div class="container">
+            <div class="top-left"><%= image.hits[1].likes%>: Likes</div>
+            <img src="<%= image.hits[1].largeImageURL%>" width="250" >
+        </div>
+
+
+        <div class="container">
+            <div class="top-left"><%= image.hits[2].likes%>: Likes</div>
+            <img src="<%= image.hits[2].largeImageURL%>" width="250" >
+        </div>
+
+        <div class="container">
+            <div class="top-left"><%= image.hits[3].likes%>: Likes</div>
+            <img src="<%= image.hits[3].largeImageURL%>" width="250" >
+        </div>
+
+    </div>
+
+
+
+    
+</body>
+</html>

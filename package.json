@@ -18,6 +18,8 @@
   "homepage": "https://github.com/thekokoloko/cst336_lab7#readme",
   "dependencies": {
     "ejs": "^2.7.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "request": "^2.88.0"
   }
 }
